@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background: beige;
+	font-family: calibri;
+}
+
+.padre .hijo{
+	width: 300px;
+	height: 150px;
+	background: white;
+	border: 5px solid lightblue;
+	margin: 20px;
+
+}
+
+.padre{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
